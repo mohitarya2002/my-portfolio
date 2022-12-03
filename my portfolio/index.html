@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<title>Mohit Raj Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('portfolio.jpg');
+  min-height: 100%;
+}
+</style>
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:12px 16px" id="home">
+    <h1 class="w3-jumbo"><b>Mohit Raj</b></h1>
+    <p>Wordpress Developer and Canva Designer.</p>
+    <img src="portfolio.JPG" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+      <a href="https://drive.google.com/file/d/1r0OAODXorJJBKF2AkzS5hDz7FNP-CsY4/view?usp=sharing"> <i class="fa fa-download"></i> Download Resume</a>
+    </button>
+  </header>
+
+  
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h2>About</h2>
+    <hr class="w3-opacity">
+    <p>Hii, myself Mohit raj. I am a diploma engineering student and my branch is Computer Science And Engineering. My home town in Gaya at Bihar..
+    </p>
+    <h3 class="w3-padding-16">My Skills</h3>
+    <p class="w3-wide">Wordpress Development</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:95%">95%</div>
+    </div>
+    <p class="w3-wide">Computer Graphics</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">85%</div>
+    </div>
+    <p class="w3-wide">Ms Office</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:80%">80%</div>
+    </div><br>
+
+   
+   
+
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24">My Qualification</h3>
+    
+    <p><span class="w3-large w3-text-black w3-margin-right">Govt. Polytechnic Gaya</span>2018-2021</p>
+    <p>Computer Science And Engg.
+   
+   
+    <p><span class="w3-large w3-text-black w3-margin-right">Matriculation</span>2017-2018</p>
+    <p>General</p><br>
+    
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+     <a href="https://drive.google.com/file/d/1r0OAODXorJJBKF2AkzS5hDz7FNP-CsY4/view?usp=sharing"> <i class="fa fa-download"></i> Download Resume</a>
+    </button>
+    
+    <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16">My Price</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">canva Design</li>
+          <li class="w3-padding-16">Wordpress</li>
+          <li class="w3-padding-16">MS Office</li>
+          <li class="w3-padding-16">
+            <h2>$ 10</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+          <li class="w3-black w3-xlarge w3-padding-32">Pro</li>
+          <li class="w3-padding-16">Seo Service</li>
+          <li class="w3-padding-16">Digital Marketing</li>
+          <li class="w3-padding-16">Youtube Promotion </li>
+          <li class="w3-padding-16">Social Media Campaign</li>
+          <li class="w3-padding-16">
+            <h2>$ 25</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+    
+  <!-- End About Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+    <h2>Contact Me</h2>
+    <hr class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Gaya, Bihar</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 </p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mohitaryascoutww@mail.com</p>
+    </div>
+    
+    
+   
+    <h2>Lets get in touch. Send me a message:</h2>
+    <div >
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdEiPdpBr2FXF4UyLtQtpkFPtofPYhS7pVePFr_0h4mdllGmA/viewform?embedded=true" width="600" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+    
+     
+    
+    
+  <!-- End Contact Section -->
+  </div>  
+  
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-25 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-10px">
+    <a href="https://www.instagram.com/mohit_arya2002/"><i class="fa fa-instagram w3-hover-opacity"></i></a> 
+    <a href="https://www.linkedin.com/in/mohit-raj-88b4051b8/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    <p class="w3-medium">Designed by <a href="https://linktr.ee/digitalmohitarya" target="_blank" class="w3-hover-text-green">@Mohit Rj</a></p>
+  <!-- End footer -->
+  </footer>
+  
+<!-- END PAGE CONTENT -->
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
